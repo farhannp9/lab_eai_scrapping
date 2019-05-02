@@ -7,9 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1G9wTVJ8LAuhPUTd3A651-XPp_s3sK3MF
 """
 
-from bs4 import BeautifulSoup
 import json
-from getpass import getpass
 import requests
 from pprint import pprint
 # SCELE_URL = 'https://scele.cs.ui.ac.id'
@@ -24,7 +22,6 @@ import os
 
 import sys
 sys.path.insert(0,'/usr/lib/chromium-browser/chromedriver')
-from selenium import webdriver
 from time import time
 start = time()
 chrome_options = webdriver.ChromeOptions()
